@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:myapp="@string/package_name"
+	android:id="@+id/background"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="bottom"
+    >
+
+<FrameLayout
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView
+	android:id="@+id/i"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	
+	
+></TextView>
+<RelativeLayout
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<ImageView 
+	android:id="@+id/previouspicture" 
+	android:src="@drawable/revisedcardcutter"
+	android:layout_height="fill_parent" 
+	android:layout_width="fill_parent"
+	android:scaleType="centerCrop"
+	></ImageView>
+	
+
+
+
+
+   
+
+<ImageView
+	android:src="@drawable/accepticon"
+	android:id="@+id/accepticon"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:clickable="true"
+	android:layout_alignParentBottom="true"
+	android:layout_alignParentRight="true"
+	/>
+
+</RelativeLayout>
+</FrameLayout>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:myapp="@string/package_name"
+	android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    >
+<ImageView 
+	android:src="@drawable/backgroundblue"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:scaleType="centerCrop"
+/>
+<ImageView 
+	android:src="@drawable/pleasewait"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:scaleType="centerCrop"
+/>
+</RelativeLayout>
